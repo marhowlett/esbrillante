@@ -1,0 +1,462 @@
+// main: main.less
+@import "variables";
+
+/* ==========================================================================
+   RESPONSIVE MÓVIL
+   ========================================================================== */
+
+@media only screen and (max-width: 500px) {
+    p {
+        padding: 10px;
+        line-height: 1.4em;
+    }
+
+
+    .flex {
+        .bloque {
+            width: 100%;
+            padding: 0;
+
+            p {
+                padding: 0;
+            }
+        }
+
+        &.wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+    }
+
+    .main-page-wrapper {
+        padding-top: 0;
+    }
+
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .template-section {
+
+        &.padding-50 {
+            padding: 50px 0px;
+        }
+
+        &.padding-100 {
+            padding: 100px 0px;
+        }
+
+        .contenedor {
+            padding: 0 15px;
+        }
+
+        h2 {
+            padding: 0px;
+            font-size: 1.8em;
+
+            b {
+                display: inline;
+                font-size: 1.1em;
+            }
+        }
+    }
+
+
+
+    /*Botones en Movil*/
+    a.btn-read-more,
+    #submit {
+        padding: 10px 11px;
+    }
+
+
+    /* ==========================================================================
+        Página Principal Móvil
+   ========================================================================== */
+    #intro {
+
+        &.home,
+        &.soluciones-web {
+            margin-bottom: 0px;
+
+        }
+
+        &.home {
+
+            .contenedor {
+                background: url(../img/inicio/banner-responsive.jpg) no-repeat;
+                background-size: cover;
+                background-position: 0 320px;
+                height: 714px;
+
+                .aplicaciones {
+                    display: none;
+                }
+            }
+
+
+        }
+
+        &.soluciones-web {
+            .aplicaciones {
+                margin-top: 25px;
+            }
+        }
+
+        .contenedor {
+            margin-top: 0px;
+
+            h1 {
+                padding: 10px 20px;
+            }
+
+            .botones {
+                margin-top: 20px;
+            }
+
+            .flex {
+
+                .boton {
+                    margin: 0 5px;
+                }
+            }
+        }
+
+
+
+        &.imagen-corporativa {
+
+            .contenedor {
+                padding-top: 10px;
+                background-attachment: inherit;
+                background-position: center -44px;
+                background-size: cover;
+                background-color: #fff;
+
+                h1 {
+                    max-width: 600px;
+                    margin: 20px auto;
+                }
+
+                p {
+                    font-size: 1.3em;
+                }
+            }
+        }
+
+        &.soluciones-web {
+            .contenedor {
+                height: 540px;
+            }
+        }
+    }
+
+    // Seccion imagen corporativa
+    #imagen-corporativa {
+        background-position: center;
+
+        .flex {
+            top: 0;
+            right: 0;
+            padding: 0px;
+
+            .flecha {
+                display: none;
+            }
+
+
+        }
+
+        p {
+            max-width: 100%;
+        }
+    }
+
+    // Seccion vender
+    #vender,
+    #visibilidad {
+        padding: 50px 0;
+
+        h2 {
+            font-weight: normal;
+            font-size: 1.4em;
+            max-width: 510px;
+            line-height: 1.8em;
+            padding: 0;
+
+            .resaltado {
+                background-color: @amarillo;
+                padding: 5px 10px;
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+        }
+
+        .texto {
+            padding: 0;
+
+            p {
+                padding: 0;
+            }
+
+            .boton {
+                width: 100%;
+                margin: 10px auto;
+            }
+        }
+    }
+
+    #clientes {
+        padding: 0;
+
+        .flex {
+            margin: 30px;
+
+            a {
+                padding: 10px;
+            }
+        }
+    }
+
+    #razones-diseno {
+        padding: 0;
+
+        h3 {
+            font-size: 1.4em;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+
+    }
+
+    #ejemplos-diseno {
+        img {
+            margin-bottom: 30px;
+        }
+    }
+
+    #empresa-exitosa {
+        background: none;
+
+        .contenedor {
+            background-size: 100%;
+            padding-bottom: 170px;
+            background-position: center 100%;
+        }
+    }
+
+    .paquetes {
+        .bloque {
+            margin-bottom: 50px;
+        }
+    }
+
+    #paquetes {
+        .notas {
+            padding: 15px;
+        }
+    }
+
+    #archivos {
+        background: #ededed;
+    }
+
+    #extras {
+
+        p {
+            font-size: 1.4em;
+        }
+
+    }
+
+    #promocion {
+
+        h4 {
+            img {
+                float: right;
+            }
+
+            i.info {
+                top: 0px;
+            }
+        }
+
+        .flex {
+            max-width: 500px;
+            margin: 20px auto;
+        }
+    }
+
+
+    #faq {
+        .contenedor {
+            padding: 15px;
+
+            h2 {
+                text-align: center;
+            }
+
+            span.vc_tta-title-text {
+                font-size: 1.2em;
+                line-height: 1.4em;
+            }
+
+            p {
+                padding: 0;
+            }
+        }
+
+    }
+
+    #web-express {
+        .flex {
+            top: -10px;
+        }
+    }
+
+    #visibilidad {
+
+        .info {
+            padding: 10px 15px;
+        }
+
+        .frase,
+        h3 {
+            font-size: 2em;
+
+        }
+
+
+        .anuncios {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        strong {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            display: block;
+        }
+    }
+
+    #diferenciador,
+    #planificacion {
+
+        h2 {
+            b {
+                font-size: inherit;
+            }
+        }
+
+        img {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    #razones {
+        padding: 0;
+
+        h2 {
+            font-size: 2.2em;
+        }
+
+        h3 {
+            margin-top: 15px;
+        }
+
+        img {
+            max-width: 50%;
+        }
+
+        .accesos {
+            margin-top: 100px;
+        }
+    }
+
+    #ejemplos-web {
+        img {
+            margin-bottom: 25px;
+        }
+    }
+
+
+    /*Ajuste de paquetes en Movil*/
+    #paquetes {
+        background-position: 0 -160px;
+
+        .flex {
+            .bloque {
+                padding: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    #contacto {
+
+
+        h2 {
+            span.negocio {
+                font-size: 2.1em;
+            }
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .btn-enviar {
+            float: none;
+        }
+
+        .foco {
+            margin-top: 60px;
+        }
+
+        .info-contact {
+            text-align: center;
+
+            .flex {
+                flex-wrap: wrap;
+
+                .bloque {
+                    &:first-child {
+                        width: 100%;
+                        margin-bottom: 10px;
+
+                        img {
+                            display: block;
+                            margin: 0 auto;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        text-align: center;
+
+        .footer-logo {
+            max-width: 100% !important;
+        }
+
+        .redes-sociales .woodmart-social-icons {
+            text-align: center !important;
+        }
+    }
+
+
+}
