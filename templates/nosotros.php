@@ -14,7 +14,8 @@ get_header();
 para tener un <b>negocio que crece lento</b> o
 conformarnos con un mal trabajo que no nos
 permita hacer <b><u>lo que queremos.</u></b></h2>
-        <img class="tarjetas" src="<?php echo get_stylesheet_directory_uri(); ?>/img/nosotros/nosotros.png" alt="Nosotros">
+        <img class="tarjetas lap" src="<?php echo get_stylesheet_directory_uri(); ?>/img/nosotros/nosotros.png" alt="Nosotros">
+        <img class="tarjetas movil" src="<?php echo get_stylesheet_directory_uri(); ?>/img/nosotros/nosotrosres.png" alt="Nosotros">
         <div class="somos">
             <p class="especial">
                Somos un grupo de <b>jóvenes creativos</b> con ganas de ayudar a tu negocio a tener la imagen <b>que siempre has soñado.</b>
@@ -72,7 +73,7 @@ un <span class="resaltado">prospecto</span> sea capaz de conectar de una manera
          
      </div>
 </div>
-<div class="flex">
+<div class="flex lap">
     
      <div class="bloque">
         <h2 class="nombre"><strong>Jesús Velasco</strong></h2>
@@ -84,6 +85,20 @@ un <span class="resaltado">prospecto</span> sea capaz de conectar de una manera
      <div class="bloque">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/nosotros/jesus.jpg" alt="karla">
     </div>
+</div>
+<div class="flex movil">
+    
+     
+     <div class="bloque">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/nosotros/jesus.jpg" alt="karla">
+    </div>
+    <div class="bloque">
+        <h2 class="nombre"><strong>Jesús Velasco</strong></h2>
+         <p>Desde la preparatoria me llamó la atención el Diseño WEB y decidí aprender por mi cuenta, entrando después a la Licenciatura.
+</p>
+<p>En Es Brillante aprendí que hacer un sitio WEB Profesional no sólo es saber programar, sino que también es saber crear sitios <b>que realmente ayuden a nuestros clientes</b> a cerrar ventas por medio de esta herramienta.</p>
+         
+     </div>
 </div>
 <div class="flex">
     <div class="bloque">
